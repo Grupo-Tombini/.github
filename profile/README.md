@@ -1,36 +1,53 @@
-# 🚛 Grupo Tombini - Plataforma ERP & API SDK
+# 🚛 Grupo Tombini - Plataforma Axis (ERP & API SDK)
 
 Bem-vindo ao repositório oficial do **Grupo Tombini**.
 
-Somos uma transportadora focada em eficiência, tecnologia e gestão inteligente de operações logísticas. Este repositório centraliza a documentação e recursos do nosso **ERP proprietário**, além de disponibilizar nossa **API SDK** para integrações externas.
+Este repositório centraliza a documentação e recursos da nossa plataforma **Axis**, um ERP desenvolvido para gestão completa de operações logísticas, além da disponibilização da nossa **API** e **SDK** para integrações externas.
 
 ---
 
-## 📦 Sobre o ERP
+## 📦 Sobre o Axis (ERP)
 
-Nosso ERP foi desenvolvido para atender às necessidades específicas do setor de transporte, oferecendo controle completo sobre:
+O **Axis** é o sistema ERP proprietário do Grupo Tombini, criado para atender às demandas específicas do setor de transporte rodoviário.
 
-- Gestão de motoristas
-- Controle de multas e sinistros
-- Adiantamento salarial
-- Gestão de frotas
-- Telemetria veicular
-- Controle financeiro
-- Planos de benefícios
-- Processos administrativos e operacionais
+Com ele, é possível gerenciar de forma integrada:
+
+- 👨‍✈️ Motoristas
+- 🚧 Multas e infrações
+- ⚠️ Sinistros
+- 💰 Adiantamento salarial
+- 🚛 Frota de veículos
+- 📡 Telemetria veicular
+- 📊 Controle financeiro
+- 🏥 Planos de benefícios
+- 🗂️ Processos operacionais e administrativos
 
 ---
 
-## 🔌 API & SDK
+## 📱 Axis Mobile
 
-Disponibilizamos uma **API REST** robusta para integração com sistemas externos.
+O **Axis Mobile** é a extensão mobile da plataforma, desenvolvida para uso em campo.
 
-Com nosso SDK, você poderá:
+Principais funcionalidades:
 
-- Integrar sistemas de terceiros ao ERP
-- Automatizar processos operacionais
-- Consultar dados de veículos, motoristas e operações
-- Enviar e receber eventos em tempo real
+- Acesso a informações operacionais em tempo real
+- Registro de ocorrências
+- Consulta de dados do motorista e veículo
+- Integração com telemetria
+- Comunicação com o ERP
+
+---
+
+## 🔌 API & SDK Axis
+
+Disponibilizamos uma **API REST** robusta que permite a integração do **Axis** com sistemas externos.
+
+Com o SDK, você poderá:
+
+- Integrar sistemas de terceiros
+- Automatizar rotinas operacionais
+- Consultar dados de motoristas, veículos e operações
+- Enviar e receber eventos
 - Gerenciar documentos e registros
 
 ---
@@ -39,14 +56,12 @@ Com nosso SDK, você poderá:
 
 A API utiliza autenticação baseada em:
 
-- Token JWT / API Key (definir padrão utilizado)
+- Token JWT / API Key *(definir padrão utilizado)*
 - Controle de permissões por usuário
 
 ---
 
 ## 📡 Principais Endpoints
-
-Exemplos de recursos disponíveis:
 
 - `/motoristas/`
 - `/veiculos/`
@@ -60,11 +75,12 @@ Exemplos de recursos disponíveis:
 
 ## ⚙️ Tecnologias Utilizadas
 
-- Backend: Python / Django
-- API: Django REST Framework
-- Frontend: HTML / JS / (React Native - quando aplicável)
-- Banco de Dados: PostgreSQL
-- Infraestrutura: AWS
+- **Backend:** Python / Django  
+- **API:** Django REST Framework  
+- **Mobile:** React Native (Axis Mobile)  
+- **Frontend Web:** HTML / JavaScript  
+- **Banco de Dados:** PostgreSQL  
+- **Infraestrutura:** AWS  
 
 ---
 
@@ -72,19 +88,17 @@ Exemplos de recursos disponíveis:
 
 1. Solicite acesso à API
 2. Gere sua chave de autenticação
-3. Utilize os endpoints conforme a documentação
-4. (Opcional) Utilize nosso SDK para facilitar a integração
+3. Consulte a documentação
+4. Realize as integrações via API ou SDK
 
 ---
 
 ## 🔐 Segurança
 
-Prezamos pela segurança dos dados:
-
 - Comunicação via HTTPS
 - Autenticação segura
 - Controle de acesso por níveis
-- Logs e auditoria de alterações
+- Auditoria de alterações
 
 ---
 
@@ -92,8 +106,8 @@ Prezamos pela segurança dos dados:
 
 Para suporte técnico ou integração:
 
-📧 (Adicionar e-mail de suporte)  
-📞 (Adicionar contato, se necessário)
+📧 (Adicionar e-mail)  
+📞 (Adicionar contato)
 
 ---
 
@@ -105,14 +119,14 @@ Este projeto é de uso interno e/ou licenciado para parceiros do **Grupo Tombini
 
 ## 🏢 Sobre o Grupo Tombini
 
-O **Grupo Tombini** atua no setor de transporte rodoviário, investindo constantemente em tecnologia para otimizar processos, reduzir custos e aumentar a eficiência operacional.
+O **Grupo Tombini** é uma transportadora que investe em tecnologia para otimizar operações logísticas, aumentar eficiência e garantir maior controle sobre seus processos.
 
 ---
 
 ## ⚠️ Observações
 
-- Este repositório está em constante evolução
-- Novos endpoints e funcionalidades podem ser adicionados sem aviso prévio
-- Recomenda-se acompanhar as atualizações
+- O sistema está em constante evolução
+- Novos recursos podem ser adicionados sem aviso prévio
+- Recomenda-se acompanhar as atualizações do repositório
 
 ---
