@@ -102,14 +102,6 @@ A API utiliza autenticação baseada em:
 
 ---
 
-## 🤝 Suporte
-
-Para suporte técnico ou integração:
-
-📧 (Adicionar e-mail)  
-📞 (Adicionar contato)
-
----
 
 ## 📄 Licença
 
